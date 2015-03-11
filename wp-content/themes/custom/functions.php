@@ -6,14 +6,14 @@ function quick_slug($s) { return sanitize_title(str_replace('/','-',$s)); }
 $stylesheets = array(
 
     'all'=>array(
-        // 'bootstrap-theme.css',
-        // 'bootstrap-theme.css.map',
-        // 'bootstrap-theme.min.css',
-        // 'bootstrap.css',
-        // 'bootstrap.css.map',
-        // 'bootstrap.min.css',
-        // 'northumberlamb.css',
-        // 'font-awesome.min.css',
+        'bootstrap-theme.css',
+        'bootstrap-theme.css.map',
+        'bootstrap-theme.min.css',
+        'bootstrap.css',
+        'bootstrap.css.map',
+        'bootstrap.min.css',
+        'custom.css',
+        'font-awesome.min.css',
     ),
 
     'lt_ie_9'=>array(),
@@ -62,9 +62,11 @@ $javascripts = array(
     'body'=>array(
 
         'all'=>array(
-            // 'jquery.js',
-            // 'bootstrap.js',
-            // 'bootstrap.min.js',
+            'jquery.js',
+            'bootstrap.js',
+            'bootstrap.min.js',
+            'classie.js',
+            'modernizr.custom.js',
         ),
 
         'lt_ie_9'=>array(),

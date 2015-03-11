@@ -1,5 +1,27 @@
-        { wp_footer() }
-        {literal}<script>
+<?php /* Smarty version Smarty-3.1.18, created on 2015-03-11 00:13:33
+         compiled from "/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/layout/end.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:195281961454ff7de254b464-26885798%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'b7c0f721be920d82253221fd1885e411069a9b21' => 
+    array (
+      0 => '/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/layout/end.tpl',
+      1 => 1426032809,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '195281961454ff7de254b464-26885798',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_54ff7de254ee14_96817071',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54ff7de254ee14_96817071')) {function content_54ff7de254ee14_96817071($_smarty_tpl) {?>        <?php echo wp_footer();?>
+
+        <script>
             (function() {
 
 
@@ -39,6 +61,7 @@
                 } );
 
             })();
-        </script>{/literal}
+        </script>
     </body>
 </html>
+<?php }} ?>
