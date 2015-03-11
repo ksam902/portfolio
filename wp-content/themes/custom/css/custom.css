@@ -14,6 +14,51 @@ header{
 header h5{
     color: #000000;
 }
+
+form.email-form {
+    margin: 50px;
+}
+input{
+    background: none;
+    border: solid 2px #f43100;
+    color: #f43100;
+    padding: 15px 40px;
+    font-size: 18px;
+    display: inline-block;
+}
+input:focus, input:active{
+    outline: none;
+}
+input[type="text"], input[type="email"]{
+    border: none;
+    border-bottom: solid 2px #f43100;
+}
+input[type="submit"], input:active{
+    color: #FFFFFF;
+    background: #f43100;
+}
+.input-group{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+.input-group input{
+    padding: 15px 0px;
+}
+.input-group input:focus + label, input.has-value + label{
+    top: -10px;
+    font-size: 12px;
+    color: #aaa;
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: default;
+}
+
 footer{
     clear: both;
     margin-bottom: 0;

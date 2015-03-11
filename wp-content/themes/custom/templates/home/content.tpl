@@ -1,7 +1,25 @@
+<!-- BANNER -->
 <header>
     <h1>Hello, Kyle</h1>
     <h5>It's great to see you again!</h5>
 </header>
+<!-- END BANNER -->
+
+<!-- FORM -->
+<form class="email-form">
+    <div class="input-group">
+        <input type="text">
+        <label>Your Name</label>
+    </div>
+    <div class="input-group">
+        <input type="email">
+        <label>Your Email</label>
+    </div>
+    <input type="submit">
+</form>
+<!-- END FORM -->
+
+<!-- SAMPLES -->
 <h2>Portfolio Samples</h2>
 <div class="grid">
     <figure class="effect-oscar">
@@ -21,3 +39,4 @@
         </figcaption>
     </figure>
 </div>
+<!-- END SAMPLE -->

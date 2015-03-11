@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-03-11 18:28:36
+<?php /* Smarty version Smarty-3.1.18, created on 2015-03-11 18:51:14
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/home/content.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:125287667754ff7aea8a2221-84197303%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '151b3b0105cb4d4dc0d26b1e3f4d1473e73ebe11' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/home/content.tpl',
-      1 => 1426098513,
+      1 => 1426099862,
       2 => 'file',
     ),
   ),
@@ -19,10 +19,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_54ff7aea8a3ab5_42620581',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54ff7aea8a3ab5_42620581')) {function content_54ff7aea8a3ab5_42620581($_smarty_tpl) {?><header>
+<?php if ($_valid && !is_callable('content_54ff7aea8a3ab5_42620581')) {function content_54ff7aea8a3ab5_42620581($_smarty_tpl) {?><!-- BANNER -->
+<header>
     <h1>Hello, Kyle</h1>
     <h5>It's great to see you again!</h5>
 </header>
+<!-- END BANNER -->
+
+<!-- FORM -->
+<form class="email-form">
+    <div class="input-group">
+        <input type="text">
+        <label>Your Name</label>
+    </div>
+    <div class="input-group">
+        <input type="email">
+        <label>Your Email</label>
+    </div>
+    <input type="submit">
+</form>
+<!-- END FORM -->
+
+<!-- SAMPLES -->
 <h2>Portfolio Samples</h2>
 <div class="grid">
     <figure class="effect-oscar">
@@ -41,4 +59,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a href="#">View more</a>
         </figcaption>
     </figure>
-</div><?php }} ?>
+</div>
+<!-- END SAMPLE --><?php }} ?>

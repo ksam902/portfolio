@@ -67,6 +67,7 @@ $javascripts = array(
             'bootstrap.min.js',
             'classie.js',
             'modernizr.custom.js',
+            'custom.js',
         ),
 
         'lt_ie_9'=>array(),
