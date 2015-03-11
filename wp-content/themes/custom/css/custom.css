@@ -1,5 +1,23 @@
 body{
     background: #000000;
+    color: #FFFFFF;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h5{
+    color: #000000;
+}
+footer{
+    clear: both;
+    margin-bottom: 0;
+    text-align: center;
 }
 .cbutton {
     position: relative;
@@ -8,7 +26,7 @@ body{
     padding: 0;
     border: none;
     background: none;
-    color: #286aab;
+    color: #FFFFFF;
     font-size: 1.4em;
     transition: color 0.7s;
 }
@@ -16,7 +34,7 @@ body{
 .cbutton.cbutton--click,
 .cbutton:focus {
     outline: none;
-    color: #3c8ddc;
+    color: #f43100;
 }
 
 .cbutton__icon {
@@ -43,7 +61,7 @@ body{
 }
 /* Radomir */
 .cbutton--effect-radomir::after {
-    box-shadow: inset 0 0 0 35px rgba(111,148,182,0);
+    box-shadow: inset 0 0 0 35px rgba(219,225,229,0);
 }
 
 .cbutton--effect-radomir.cbutton--click::after {
@@ -58,11 +76,11 @@ body{
         transform: scale3d(0.4, 0.4, 1);
     }
     80% {
-        box-shadow: inset 0 0 0 2px rgba(111,148,182,0.8);
+        box-shadow: inset 0 0 0 2px rgba(219,225,229,0.8);
         opacity: 0.1;
     }
     100% {
-        box-shadow: inset 0 0 0 2px rgba(111,148,182,0.8);
+        box-shadow: inset 0 0 0 2px rgba(219,225,229,0.8);
         opacity: 0;
         -webkit-transform: scale3d(1.2, 1.2, 1);
         transform: scale3d(1.2, 1.2, 1);
@@ -76,11 +94,11 @@ body{
         transform: scale3d(0.4, 0.4, 1);
     }
     80% {
-        box-shadow: inset 0 0 0 2px rgba(111,148,182,0.8);
+        box-shadow: inset 0 0 0 2px rgba(219,225,229,0.8);
         opacity: 0.1;
     }
     100% {
-        box-shadow: inset 0 0 0 2px rgba(111,148,182,0.8);
+        box-shadow: inset 0 0 0 2px rgba(219,225,229,0.8);
         opacity: 0;
         -webkit-transform: scale3d(1.2, 1.2, 1);
         transform: scale3d(1.2, 1.2, 1);
