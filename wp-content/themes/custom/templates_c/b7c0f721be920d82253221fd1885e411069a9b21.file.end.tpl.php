@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-03-11 00:13:33
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-26 15:31:58
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/layout/end.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:195281961454ff7de254b464-26885798%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -15,13 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.18',
+  'version' => 'Smarty-3.1.21-dev',
   'unifunc' => 'content_54ff7de254ee14_96817071',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_54ff7de254ee14_96817071')) {function content_54ff7de254ee14_96817071($_smarty_tpl) {?>        <?php echo wp_footer();?>
 
-        <script>
+        <?php echo '<script'; ?>
+>
             (function() {
 
 
@@ -61,7 +62,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 } );
 
             })();
-        </script>
+        <?php echo '</script'; ?>
+>
     </body>
 </html>
 <?php }} ?>

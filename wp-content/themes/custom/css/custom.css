@@ -1,6 +1,6 @@
 body{
-    background: #000000;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: #000000;
 }
 header{
     background-image: url(../img/banner.jpg);
@@ -11,9 +11,24 @@ header{
     justify-content: center;
     align-items: center;
 }
-header h5{
-    color: #000000;
+header h1{
+    color: #FFFFFF;
 }
+
+
+div.container div.header{
+    width: 100%;
+    text-align: center;
+}
+div.row div a img{
+    height: 250px;
+    max-height: 250px;
+    width: 350px;
+    max-width: 350px;
+}
+
+
+
 
 form.email-form {
     margin: 50px;
