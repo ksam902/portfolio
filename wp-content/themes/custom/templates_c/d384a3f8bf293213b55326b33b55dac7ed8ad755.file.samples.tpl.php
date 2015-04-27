@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-27 15:10:03
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-27 15:23:46
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/home/samples.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1365089707553e514b1e0334-99614061%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd384a3f8bf293213b55326b33b55dac7ed8ad755' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/custom/templates/home/samples.tpl',
-      1 => 1430147399,
+      1 => 1430148208,
       2 => 'file',
     ),
   ),
@@ -15,18 +15,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_553e514b1eae70_17526301',
   'variables' => 
   array (
     'posts' => 0,
     'sample' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_553e514b1eae70_17526301',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_553e514b1eae70_17526301')) {function content_553e514b1eae70_17526301($_smarty_tpl) {?><!-- SAMPLES -->
 <div class="container">
-    <div class="header">
+    <div class="center">
         <h2>Portfolio Samples</h2>
     </div>
     <div class="row">
@@ -44,5 +44,9 @@ $_smarty_tpl->tpl_vars['sample']->_loop = true;
             </div>
         <?php } ?>
       </div>
+      <div class="center">
+        <hr>
+    </div>
 </div>
+
 <!-- END SAMPLE --><?php }} ?>

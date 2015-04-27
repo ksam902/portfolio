@@ -1,6 +1,6 @@
 <!-- SAMPLES -->
 <div class="container">
-    <div class="header">
+    <div class="center">
         <h2>Portfolio Samples</h2>
     </div>
     <div class="row">
@@ -12,5 +12,9 @@
             </div>
         {/foreach}
       </div>
+      <div class="center">
+        <hr>
+    </div>
 </div>
+
 <!-- END SAMPLE -->
